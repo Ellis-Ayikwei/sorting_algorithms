@@ -1,5 +1,14 @@
 #include "sort.h"
 
+void num_swap(int *a, int *b);
+void num_swap(int *a, int *b)
+{
+	int tmp;
+
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
+}
 
 /**
  * bubble_sort - Sort an array of integers in ascending order.
