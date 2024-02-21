@@ -35,14 +35,7 @@ typedef enum bool
 /*helper funtions*/
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
-void swapp(int *a, int *b)
-{
-	int tmp;
-
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
-}
+void num_swap(int *a, int *b);
 
 /*sorting algorithms*/
 void bubble_sort(int *array, size_t size);
